@@ -27,8 +27,8 @@ public class MarioControllerScript : MonoBehaviour {
 
         bool isGrounded = Physics2D.OverlapPoint(groundCheck.position, groundLayer);
 
-        Debug.Log(groundCheck.position);
-        Debug.Log(isGrounded);
+        //Debug.Log(groundCheck.position);
+        //Debug.Log(isGrounded);
 
         marioAnimation.SetBool("isGrounded", isGrounded);
 
